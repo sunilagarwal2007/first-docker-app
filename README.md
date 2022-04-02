@@ -12,4 +12,4 @@
 4. Run container using the created image: `docker run -d --name node-app -p 8080:8080 first-docker-app:latest`
 5. Open `http://localhost:8080` to run App on Web Browser
   <img src="./static/images/main_page.png">
-6. Push image to DockerHub: `docker image push DockerHubID/RepoName:ImageName`
+6. Push image to DockerHub `docker image push DockerHubID/RepoName:ImageName`
